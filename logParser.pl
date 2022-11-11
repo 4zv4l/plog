@@ -53,7 +53,7 @@ while($file = <$input>) {
 close $input;
 
 sub usage {
-    my ($exit_code) = @_;
+    my $exit_code = @_;
     print
 "logParser [OPTIONS] [FILE] [PATTERN...]
 
